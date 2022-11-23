@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing ball</title>
+</head>
+<style>
+    section{
+        width:500px;
+        height:500px;
+        background-color: lightgreen;
+        border: 2px solid black;
+        margin:auto;
+        margin-top:100px;
+        padding-left: 16%;
+    }
+    div{
+        text-align: center;
+        height:250px;
+        width:250px;
+        border-radius: 50%;
+        border: 2px solid black;
+        background-color: lightblue;
+        animation-name: Slider;
+        animation-duration: 1s;
+        animation-iteration-count: 100;
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        animation-direction: alternate;
+        animation-play-state: running;
+        animation-delay: 1s;
+    }
+    @keyframes Slider{
+        50%{
+            margin-top:250px;
+        }
+    }
+</style>
+<body>
+    <section>
+        <div>Ball</div>
+    </section>
+</body>
+</html>

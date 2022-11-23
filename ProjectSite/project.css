@@ -14,16 +14,16 @@ body{
   background-size: cover;
   background-position: center;
 }
-.headi{
+.headi {
   text-align:center;
 }
-.heading{
+         .heading{
   text-align:center;
   font-style:italic;
   font-size:19px;
   margin-top:-14px;
 }
-form {
+ form {
       max-width: 600px;
       min-width: 300px;
       margin: 0 auto;
