@@ -7,10 +7,10 @@
     <title>JavaScript Introduction</title>
     <style></style>
     <script>
-        var a=10;
-        var b="hello";
-        console.log(a);
-        console.log(b);
+        // var a=10;
+        // var b="hello";
+        // console.log(a);
+        // console.log(b);
         // ask question
         // var age=prompt("what is your age");
         // pop up
@@ -22,12 +22,51 @@
         //     console.log("my age is 19");
         // }
         // myage();
-        function myage(a,b){
-           let sum=a+b;
-           return sum;
-        }
+        // function myage(a,b){
+        //    let sum=a+b;
+        //    return sum;
+        // }
 
-        console.log(myage(10,20));
+        // // console.log(myage(10,20));
+        // let str="this is a string";
+        // let num=25;
+        // console.log(str,typeof str);
+        // console.log(str);
+        // console.log(str[1]);
+        // console.log(str.length);
+        // // for (let index = 0; index < str.length; index++) {
+        // //     console.log(str[index]);
+        // // }
+        // var a = 1;
+        // var sum=0;
+        
+        // while(true){
+        //     a= +prompt();
+        //     if(a==0){
+        //         alert(sum);
+        //         break;
+        //     }
+        //     else{
+        //         sum=sum+a;
+        //     }
+        // }
+        str="this is a boy ";
+        ayush="";
+        var l=str.length;
+        var s="";
+        for (let index = 0; index < str.length; index++) {
+            if(str[index]!=" "){
+                s=s+str[index];
+            }
+            else{
+                for (let i = s.length-1; i >=0; i--) {
+                    ayush = ayush + s[i];
+                }
+                ayush = ayush+" ";
+                s="";
+            }
+        }
+        console.log(ayush);
     </script>
 </head>
 <body>
